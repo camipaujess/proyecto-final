@@ -3,16 +3,18 @@ def suma():
     puntuacion = 0
     rng = random.Random()
     listapuntuacion = [50, 100, 150, 200, 250]
+    rango = [10, 50, 100, 500]
     for puntos in listapuntuacion:
         while puntuacion < puntos:
-            a = rng.randrange(1,10)#hay que cambiar esto
-            b = rng.randrange(1,10)# y esto tambien 
+            c = rango[0]
+            a = rng.randrange(1,c)
+            b = rng.randrange(1,c)
             res = a+b
             res1 = int(input("¿Cuánto es " + str(a) + " + " + str(b) + "?  "))
             if res1 == res:
                 print( "Respuesta Correcta")
                 puntuacion += 5
-                print(puntuacion)
+                print("Puntuación: " + str(puntuacion))
             else:
                 print( "Intentalo de nuevo" + "\n" )
                 num1 = a
@@ -21,7 +23,11 @@ def suma():
                 result1 = int(input("¿Cuánto es " + str(num1) + " + " + str(num2) + "?  "))
                 if result == result1:
                     print ("Respuesta Correcta")
-                    print(puntuacion)
+                    puntuacion += 5
+                    print("Puntuación: " + str(puntuacion))
                 else:
                     print ("Respuesta incorrecta" + "\n" + "La respuesta correcta es: " + str(result))
-        print("Siguiente nivel") # esto tiene que ser un boton
+        if puntuacion == puntos:
+            del rango[0]
+            print("Siguiente nivel") # esto tiene que ser un boton
+suma ()
