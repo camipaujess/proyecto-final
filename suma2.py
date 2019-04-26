@@ -42,6 +42,6 @@ def suma():
                     """Verificamos que el elemento del rango sea diferente al ultimo para cambiar de nivel"""
                     print("Siguiente nivel") # esto tiene que ser un boton
                 else:
-                    """Si el elemento del rango es igual al ultimo, el usuario ha terminado las restas"""
+                    """Si el elemento del rango es igual al ultimo, el usuario ha terminado las sumas"""
                     print("Terminaste las sumas!")
 suma ()
