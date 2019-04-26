@@ -33,5 +33,5 @@ def suma():
                 if puntuacion != listapuntuacion[-1]:
                     print("Siguiente nivel") # esto tiene que ser un boton
                 else:
-                    print("Terminaste las restas!")
+                    print("Terminaste las sumas!")
 suma ()
