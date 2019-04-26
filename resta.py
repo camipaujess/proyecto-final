@@ -5,7 +5,7 @@ def resta():
     puntuacion = 0 #contador de la puntuación.
     rng = random.Random()
     listapuntuacion = [50, 100, 150, 200, 250] #El intervalo de puntaje en donde se cambia de nivel.
-    rango = [10, 30, 50, 70, 100]#Cada vez que cambia de nivel, el rango tam.
+    rango = [10, 30, 50, 70, 100]#Cada vez que cambia de nivel, el rango tambien.
     for puntos in listapuntuacion:
         while puntuacion < puntos:
             c = rango[0]
