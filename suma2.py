@@ -34,11 +34,14 @@ def suma():
                     """ Si el usuario se vuelve a equivocar, le dice cuál era la respuesta correcta"""
                     print ("Respuesta incorrecta" + "\n" + "La respuesta correcta es: " + str(result))
         if puntuacion == puntos:
-            """ Para que cambie de nivel, hacemos que los pu
+           """para que cambie de nivel, hacemos que los puntos sean iguales a la puntuacion"""
             if len(rango) != 0:
+                 """Eliminamos el primer elemento del rango"""
                 del rango[0]
                 if puntuacion != listapuntuacion[-1]:
+                    """Verificamos que el elemento del rango sea diferente al ultimo para cambiar de nivel"""
                     print("Siguiente nivel") # esto tiene que ser un boton
                 else:
+                    """Si el elemento del rango es igual al ultimo, el usuario ha terminado las restas"""
                     print("Terminaste las sumas!")
 suma ()
