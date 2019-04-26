@@ -3,7 +3,7 @@ def suma():
     puntuacion = 0
     rng = random.Random()
     listapuntuacion = [50, 100, 150, 200, 250]
-    rango = [10, 50, 100, 500]
+    rango = [10, 30, 50, 70, 100]
     for puntos in listapuntuacion:
         while puntuacion < puntos:
             c = rango[0]
