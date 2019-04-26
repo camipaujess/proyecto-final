@@ -39,7 +39,7 @@ def resta():
                 res = b-a
                 res1 = int(input("¿Cuánto es " + str(b) + " - " + str(a) + "?  "))
                 if res1 == res:
-                    """Si la respuesta es incorrecta, la pregunta vuelve a aparecer"""
+                    """Si la respuesta es correcta, suma puntaje"""
                     print( "Respuesta Correcta")
                     puntuacion += 5
                     print("Puntuación: " + str(puntuacion))
