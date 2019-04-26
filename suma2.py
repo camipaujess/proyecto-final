@@ -28,6 +28,10 @@ def suma():
                 else:
                     print ("Respuesta incorrecta" + "\n" + "La respuesta correcta es: " + str(result))
         if puntuacion == puntos:
-            del rango[0]
-            print("Siguiente nivel") # esto tiene que ser un boton
+            if len(rango) != 0:
+                del rango[0]
+                if puntuacion != listapuntuacion[-1]:
+                    print("Siguiente nivel") # esto tiene que ser un boton
+                else:
+print("Terminaste las restas!")
 suma ()
