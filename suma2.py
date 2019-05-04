@@ -1,4 +1,4 @@
-import random.
+import random
 def suma():
     """Hace sumas aleatorias cada vez más díficiles con respecto a la puntuación (con cierto puntaje se vuelve más díficil)
     """
