@@ -1,4 +1,4 @@
-import random..
+import random
 
 def resta():
     #Hace restas aleatorias a medida que el puntaje va subiendo, las restas se vuelven mas dificles.
