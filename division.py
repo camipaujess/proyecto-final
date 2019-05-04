@@ -1,4 +1,4 @@
-import random
+import random.
 def division():
     """Hace divisiones aleatorias cada vez más díficiles con respecto a la puntuación (con cierto puntaje se vuelve más díficil)"""
     puntuacion = 0 #Empieza la puntuación del juego
