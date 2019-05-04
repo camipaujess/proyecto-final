@@ -1,4 +1,4 @@
-import random.
+import random
 def multiplicacion():
     #Hace multiplicaciones aleatorias a medida que el puntaje va subiendo, las multiplicaciones se vuelven mas dificles.
     puntuacion = 0  #Empieza la puntuación del juego
